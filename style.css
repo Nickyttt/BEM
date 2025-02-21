@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(245, 205, 211);
+}
+header [href] {
+    width: 200px !important;
+    margin-top: 25px;
+}
+
+body {
+    background-color: rgb(209, 252, 252);
+    font-family: "Delicious Handrawn", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.bodyv {
+    background-color: rgb(245, 245, 183);
+
+}
+
+.bodye {
+    background-color: rgb(250, 215, 221);
+}
