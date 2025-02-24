@@ -7,16 +7,89 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Armata&family=Delicious+Handrawn&family=Finger+Paint&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Paprika&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <h1>Metodología BEM</h1>
-        <a href="ventajas.html">Ventajas</a>
-        <a href="ejemplos.html">Ejemplos</a>
+        <h1>Metodología<br> BEM</h1>
+        <a href="ventajas.html">Ventajas</a><br>
+        <a href="ejemplos.html" >Ejemplos</a><br>
+        <a href="#contenidos">Contenidos</a><br>
+
     </header>
-    
+     
+    <nav class="tablacont">
+        
+        <div id="contenidos">
+            <h2 class="tablacont_title">Contenido</h2>
+        </div>
+        
+        <br>
+        <a class="tablacont_link" href="#seccion1">Combinadores</a>
+        <br>
+        <a class="tablacont_link" href="#seccion2">Combinadores Lógicos</a>
+        <br>
+        <a class="tablacont_link" href="#seccion3">Pseudoclases</a>
+        <br>
+        <a class="tablacont_link" href="#seccion4">Pseudoclases de estructura</a>
+        <br>
+        <a class="tablacont_link" href="#seccion5">Reglas</a>
+    </nav>
+
+    <section id="seccion1" class="section">
+        <h2 class="section__title">Combinadores CSS:</h2><br>
+        <p class="section__content"><strong>¿Qué son los combinadores CSS?</strong><br><br>Un combinador CSS es un operador que define la relación entre dos o más selectores. Gracias a ellos, podemos aplicar estilos de manera más eficiente y organizada. Existen cuatro tipos principales de combinadores en CSS:<br>
+                <br>
+                <strong>1. Combinador de descendencia (  - espacio)</strong><br>
+                
+                Este combinador selecciona todos los elementos que son descendientes de un elemento padre, sin importar cuán anidados estén. Es una forma flexible de aplicar estilos dentro de una jerarquía específica.
+                <br>
+                <br> 
+                <strong>2. Combinador de hijo directo (> - mayor que)</strong><br>
+                
+                A diferencia del combinador de descendencia, este operador solo selecciona elementos que son hijos directos de un elemento padre. Es útil cuando queremos asegurarnos de que los estilos solo afecten a un nivel específico dentro de la estructura HTML.
+                <br>
+                <br>
+                <strong>3. Combinador de hermano adyacente (+ - más)</strong><br>
+                
+                Este combinador permite seleccionar el primer elemento que aparece inmediatamente después de otro en el mismo nivel jerárquico. Se usa cuando queremos estilizar un elemento basado en la existencia de otro que lo precede directamente.
+                <br>
+                <br>
+                <strong>4. Combinador de hermanos generales (~ - tilde)</strong><br>
+                
+                A diferencia del combinador anterior, este selecciona todos los elementos hermanos que aparecen después de un elemento determinado, sin importar si son inmediatos o no.</p>
+    </section>
+    <section id="seccion2" class="section">
+        <h2 class="section__title">Combinadores Lógicos</h2>
+        <p class="section__content">
+
+            Además de los combinadores tradicionales, CSS también ofrece combinadores lógicos, que permiten seleccionar elementos según múltiples condiciones combinadas. Estos son los principales:<br>
+            <br>
+            <strong>Selector de grupo ( , ):</strong> Permite aplicar los mismos estilos a múltiples selectores sin necesidad de repetir reglas.<br>
+            <br> 
+            <strong>Selector de intersección (A.B):</strong>Selecciona elementos que cumplen con múltiples clases o atributos simultáneamente.<br>
+            <br>
+            <strong>Selector de unión (:is()):</strong> Aplica estilos a cualquiera de los elementos especificados dentro del paréntesis.<br>
+            <br>
+            <strong> Selector de negación (:not()):</strong> Excluye elementos que coincidan con el selector especificado.</p>
+    </section>
+    <section id="seccion3" class="section">
+        <h2 class="section__title">Pseudoclases</h2>
+        <p class="section__content">Contenido de la Sección 3.</p>
+    </section>
+    <section id="seccion4" class="section">
+        <h2 class="section__title">Pseudoclases de estructura</h2>
+        <p class="section__content">Contenido de la Sección 4.</p>
+    </section>
+    <section id="seccion5" class="section">
+        <h2 class="section__title">Reglas</h2>
+        <p class="section__content">Contenido de la Sección 5.</p>
+    </section>
     <main>
 
     </main>
